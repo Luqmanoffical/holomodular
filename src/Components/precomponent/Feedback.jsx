@@ -21,18 +21,21 @@ const Feedback = () => (
         <div className="feedback-gradient" />
         <div>
           <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white">
-            Samantha
+          About HoloModular
           </h4>
+          <p className="mt-[28px] font-normal sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white">
+          HoloModular LLC was found October 2021 in the State of Florida, USA. Our goal is to develop new and innovative technologies to compliment an augmented and virtual reality world.
+          </p>
+          
           <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white">
-            Founder Metaverus
+          We are multi-disciplined experts in several fields, industries and technologies, which allows us to design, prototype, develop, test, and release products quickly. We offer a wide variety of products and consulting services to help you become more successful.
+          </p>
+          
+          <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white">
+          Interested in working with us? Let us know how we can help! Contact us at Support@HoloModular.com
           </p>
         </div>
 
-        <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white">
-          “With the development of today's technology, metaverse is very
-          useful for today's work, or can be called web 3.0. by using
-          metaverse you can use it as anything”
-        </p>
       </motion.div>
 
       <motion.div

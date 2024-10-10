@@ -10,7 +10,10 @@ import { IoMdRocket } from 'react-icons/io'; // For Driving Innovation
 import { FaDatabase } from 'react-icons/fa'; // For Data Querying
 import { MdBuild } from 'react-icons/md'; // For The Microservices Foundation
 import { FaRegLightbulb } from 'react-icons/fa';
-import vrpano from '../assets/vrpano.svg'
+import bricks from '../assets/1Logo.png'
+import qurey from '../assets/2Logo.png'
+import len from '../assets/3Logo.png'
+
 import headset from '../assets/headset.svg'
 
 
@@ -79,22 +82,22 @@ export const newFeatures = [
 
 export const insights = [
   {
-    imgUrl: planat6,
-    title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
+    imgUrl: bricks,
+    title: 'ServiceBricks',
     subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+        'A powerful microservices platform that simplifies the development and maintenance of distributed systems, enabling teams to create tailored, scalable solutions.',
   },
   {
-    imgUrl: planat7,
-    title: '7 tips to easily master the madness of the Metaverse',
+    imgUrl: qurey,
+    title: 'ServiceQuery',
     subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
+        'A universal data querying API that provides seamless access to both relational (SQL) and document (NoSQL) databases, allowing for flexible data management.',
   },
   {
-    imgUrl: planat8,
-    title: 'With one platform you can explore the whole world virtually',
+    imgUrl: len,
+    title: 'HoloLens 2',
     subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+        'Experience augmented reality like never before with our prototype that lets you wield superpowers shoot lasers and rockets while engaging with interactive environments using spatial recognition and realistic animations.',
   },
 ];
 

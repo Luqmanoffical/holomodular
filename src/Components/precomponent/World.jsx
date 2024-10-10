@@ -19,11 +19,11 @@ const World = () => (
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
 
-      <TypingText title="| People on the World" textStyles="text-center" />
+      <TypingText title=" Our Comunity" textStyles="text-center text-3xl" />
       <TitleText
         title={(
-          <>Track friends around you and invite them to play together in the same
-            world
+          <>Our expert consultants work closely with your team to understand your unique challenges and goals all our the
+            world.
           </>
         )}
         textStyles="text-center"
