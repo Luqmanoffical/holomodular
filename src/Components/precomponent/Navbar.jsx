@@ -18,20 +18,21 @@ const Navbar = () => (
     <div
       className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}
     >
-      <img
-        src={se}
-        alt="search"
-        className="w-[24px] h-[24px] object-contain"
-      />
       <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white">
-<img src={logo} alt="logo" className='h-28 -mt-6  object-contain' />
+<img src={logo} alt="logo" className='h-24 -mt-6  object-contain' />
       </h2>
-      <img
-        src={me}
-        alt="menu"
-        className="w-[24px] h-[24px] object-contain"
-      />
-    </div>
+     <div className='flex'>
+     <p className='mx-4 hover:text-purple-900 font-code text-lg'>
+     Home
+      </p>      <p className='mx-4 hover:text-purple-900 font-code text-lg'>
+
+        Products
+      </p>
+      <p className='mx-4 hover:text-purple-900 font-code text-lg'>
+        About
+      </p>
+     </div>
+     </div>
   </motion.nav>
 );
 

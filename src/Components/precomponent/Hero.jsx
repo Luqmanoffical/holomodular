@@ -6,8 +6,8 @@ import { slideIn, staggerContainer, textVariant } from '../lib/motion';
 
 import stamp from '../../assets/stamp.png'
 const Hero = () => (
-  <section className={`${styles.yPaddings} sm:pl-16 pl-6`}>
-    <motion.div
+  <section className='min-h-screen'>
+    {/* <motion.div
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
@@ -50,7 +50,7 @@ const Hero = () => (
           </div>
         </a>
       </motion.div>
-    </motion.div>
+    </motion.div> */}
   </section>
 );
 
