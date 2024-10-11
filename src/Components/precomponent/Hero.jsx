@@ -40,7 +40,7 @@ const Hero = () => (
     </div> */}
  <motion.div
         variants={fadeIn('left', 'tween', 0.2, 1)}
-        className={`w-1/2  flex justify-center items-center flex-col`}
+        className={`w-1/2  flex justify-center items-center mx-9 flex-col`}
 
       >
     {/* <div className='w-full  flex flex-col ml-20 -mt-14 justify-center items-center text-center md:text-left'> */}
