@@ -1,7 +1,6 @@
 
 import { motion } from 'framer-motion';
-import se from '../../assets/search.svg';
-import me from '../../assets/menu.svg';
+// import { Link } from 'react-scroll';
 import logo from '../../assets/logo.png';
 import {Link} from "react-router-dom"
 import styles from '../Style';
