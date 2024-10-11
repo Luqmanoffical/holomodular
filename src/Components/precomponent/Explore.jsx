@@ -25,6 +25,7 @@ const Explore = () => {
           title={<>Unleash your imagination with  <br className="md:block hidden " /> cutting-edge technology</>}
           textStyles="text-center text-5xl"
         />
+        
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
           {exploreWorlds.map((world, index) => (
             <ExploreCard

@@ -5,6 +5,7 @@ import star from "../../assets/arrow-down.svg"
 import styles from '../Style';
 import { fadeIn, staggerContainer } from '../lib/motion';
 
+
 const About = () => (
   <section className={`${styles.paddings} relative z-10`}>
     <div className="gradient-02 z-0" />
@@ -15,7 +16,7 @@ const About = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
-      <TypingText title="Open Source Company" textStyles="text-center font-bold text-3xl" />
+      <TypingText title="Open Source Company" textStyles="text-center font-bold text-5xl" />
 
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
