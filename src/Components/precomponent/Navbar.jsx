@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import se from '../../assets/search.svg';
 import me from '../../assets/menu.svg';
 import logo from '../../assets/logo.png';
-
+import {Link} from "react-router-dom"
 import styles from '../Style';
 import { navVariants } from '../lib/motion';
 
@@ -23,7 +23,7 @@ const Navbar = () => (
       </h2>
      <div className='flex'>
      <p className='mx-4 hover:text-purple-900 font-code text-lg'>
-     Home
+   <Link to = "/">Home</Link>  
       </p>      <p className='mx-4 hover:text-purple-900 font-code text-lg'>
 
         Products

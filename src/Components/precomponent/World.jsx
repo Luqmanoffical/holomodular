@@ -19,11 +19,10 @@ const World = () => (
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
 
-      <TypingText title=" Our Comunity" textStyles="text-center text-3xl" />
+      <TypingText title="Supporting Open Source Software" textStyles="text-center text-3xl" />
       <TitleText
         title={(
-          <>Our expert consultants work closely with your team to understand your unique challenges and goals all our the
-            world.
+          <>We support free and open source software and use the MIT permissive license for our core platforms so that everyone can learn and share.
           </>
         )}
         textStyles="text-center"
