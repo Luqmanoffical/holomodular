@@ -34,7 +34,7 @@ const World = () => (
       >
         <img src={map} alt="map" className="w-full h-full object-cover" />
 
-        <div className="absolute bottom-20 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
+        {/* <div className="absolute bottom-20 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
           <img src={p1} alt="people" className="w-full h-full" />
         </div>
 
@@ -44,7 +44,7 @@ const World = () => (
 
         <div className="absolute top-1/2 left-[45%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
           <img src={p3} alt="people" className="w-full h-full" />
-        </div>
+        </div> */}
       </motion.div>
     </motion.div>
   </section>

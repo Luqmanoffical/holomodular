@@ -8,7 +8,7 @@ import styles from '../Style';
 
 const Hero = () => (
   <section
-    className='min-h-screen -mt-10 w-full flex flex-col md:flex-row justify-center items-center bg-cover'
+    className='min-h-screen -mt-10 w-full flex flex-col md:flex-row justify-center items-center bg-contain bg-no-repeat'
     style={{
       backgroundImage: `url(${bg})`,
     }}

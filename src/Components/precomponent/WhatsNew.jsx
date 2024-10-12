@@ -1,6 +1,7 @@
 
 import { motion } from 'framer-motion';
 import start from '../../assets/whats-new.png'
+import bricks from '../../assets/1Logo.png'
 
 import styles from '../Style';
 import { newFeatures } from '../../constants';
