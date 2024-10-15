@@ -47,7 +47,7 @@ const Feedback = () => (
 <h4 className="font-bold py-10 sm:text-[32px] text-[26px] text-center sm:leading-[40.32px] leading-[36.32px] text-white">
 About HoloModular
           </h4>
-       <div className='px-14 '>
+       <div className='px-20 '>
          <p className="mt-[8px] font-normal text-justify sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white">
          HoloModular LLC was found October 2021 in the State of Florida, USA. Our goal is to develop new and innovative technologies to compliment an augmented and virtual reality world.   
           </p>
@@ -93,7 +93,7 @@ Impressum
 
         <motion.div
           variants={zoomIn(0.4, 1)}
-          className="lg:block hidden absolute -left-[10%] top-[3%]"
+          className="lg:block hidden absolute -left-[10%] top-[18%]"
         >
           <img
             src={stamp}

@@ -10,7 +10,7 @@ import { IoMdRocket } from 'react-icons/io'; // For Driving Innovation
 import { FaDatabase } from 'react-icons/fa'; // For Data Querying
 import { MdBuild } from 'react-icons/md'; // For The Microservices Foundation
 import { FaRegLightbulb } from 'react-icons/fa';
-import bricks from '../assets/1Logo.png'
+import bricks from '../assets/bricksLogo.png'
 import qurey from '../assets/2Logo.png'
 import len from '../assets/3Logo.png'
 
@@ -86,19 +86,24 @@ export const insights = [
     title: 'ServiceBricks',
     subtitle:
         'A powerful microservices platform that simplifies the development and maintenance of distributed systems, enabling teams to create tailored, scalable solutions.',
-  },
+  url:"https://servicebricks.com/"
+      },
   {
     imgUrl: qurey,
     title: 'ServiceQuery',
     subtitle:
         'A universal data querying API that provides seamless access to both relational (SQL) and document (NoSQL) databases, allowing for flexible data management.',
-  },
+        url:"https://servicequery.com/"
+  
+      },
   {
     imgUrl: len,
     title: 'HoloLens 2',
     subtitle:
         'Experience augmented reality like never before with our prototype that lets you wield superpowers shoot lasers and rockets while engaging with interactive environments using spatial recognition and realistic animations.',
-  },
+        url:"https://apps.microsoft.com/detail/9n0v6z9w8j4v?hl=en-US&gl=US"
+  
+      },
 ];
 
 import twit from '../assets/twitter.svg'

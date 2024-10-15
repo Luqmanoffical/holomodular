@@ -1,7 +1,7 @@
 
 import { motion } from 'framer-motion';
 import start from '../../assets/whats-new.png'
-import bricks from '../../assets/1Logo.png'
+import bricks from '../../assets/globe.png'
 
 import styles from '../Style';
 import { newFeatures } from '../../constants';
@@ -34,11 +34,14 @@ const WhatsNew = () => (
         variants={planetVariants('right')}
         className={`flex-1 mt-20 ${styles.flexCenter}`}
       >
+      <a href={`https://servicebricks.com/`} target="_blank" rel="noopener noreferrer">
+
         <img
-          src={start}
+          src={bricks}
           alt="get-started"
           className="w-[90%] h-[90%] object-contain"
         />
+</a>
       </motion.div>
     </motion.div>
   </section>

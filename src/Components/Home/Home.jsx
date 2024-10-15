@@ -10,7 +10,7 @@ import  World  from '../precomponent/World';
 import Insights  from '../precomponent/Insights';
 import  Feedback  from '../precomponent/Feedback';
 import  Footer  from '../precomponent/Footer';
-
+import Free from "../precomponent/Free"
 function Home() {
   return (
     <div className="overflow-hidden" >
@@ -31,6 +31,7 @@ function Home() {
     <div className="relative">
       <Insights />
       <div className="gradient-04 z-0" />
+      <Free/>
       <Feedback />
     </div>
     <Footer />
