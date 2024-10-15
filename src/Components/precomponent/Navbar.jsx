@@ -1,7 +1,6 @@
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 import logo from '../../assets/Logonew.png';
-import { Link } from 'react-scroll'; // For smooth scrolling
+import { Link } from "react-scroll"; // Smooth scrolling for internal links
 import styles from '../Style';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
@@ -9,22 +8,13 @@ import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const navigate = useNavigate(); // Use navigate for routing
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
-  const handleLinkClick = (target) => {
+  const handleLinkClick = () => {
     setIsOpen(false); // Close the menu when a link is clicked
-    navigate('/'); // Navigate to the home page
-    setTimeout(() => {
-      // Smooth scroll after navigation
-      const element = document.getElementById(target);
-      if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
-      }
-    }, 100); // Delay to ensure the page has loaded
   };
 
   return (
@@ -45,13 +35,20 @@ const Navbar = () => {
             <NavLink to="/" exact activeClassName="text-purple-900" className="my-2 mx-4 hover:text-purple-900 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={handleLinkClick}>
               Home
             </NavLink>
-            <button onClick={() => handleLinkClick('about')} className="my-2 mx-4 hover:text-purple-900 font-code text-lg border-b border-transparent hover:border-purple-900">
+            <NavLink to="/" exact onClick={handleLinkClick}>
+
+            <Link to="about" smooth={true} duration={500} className="my-2 mx-4 hover:text-purple-900 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={handleLinkClick}>
               About
-            </button>
-            <button onClick={() => handleLinkClick('products')} className="my-2 mx-4 hover:text-purple-900 font-code text-lg border-b border-transparent hover:border-purple-900">
+            </Link>
+            </NavLink>
+            <NavLink to="/" exact onClick={handleLinkClick}>
+
+            <Link to="products" smooth={true} duration={500} className="my-2 mx-4 hover:text-purple-900 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={handleLinkClick}>
               Products
-            </button>
-            <NavLink to="/Registered" activeClassName="text-purple-900" className="my-2 mx-4 hover:text-purple-900 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={() => setIsOpen(false)}>
+            </Link>
+            </NavLink>
+
+            <NavLink to="/Registered" activeClassName="text-purple-900" className="my-2 mx-4 hover:text-purple-900 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={handleLinkClick}>
               Sign Up
             </NavLink>
           </div>
@@ -59,16 +56,17 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex md:flex-row">
-          <NavLink to="/" exact activeClassName="text-purple-900" className="mx-4 hover:text-purple-900 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={() => setIsOpen(false)}>
+          <NavLink to="/" exact activeClassName="text-purple-900" className="mx-4 hover:text-purple-900 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={handleLinkClick}>
             Home
           </NavLink>
-          <button onClick={() => handleLinkClick('products')} className="mx-4 hover:text-purple-900 font-code text-lg border-b border-transparent hover:border-purple-900">
+          <Link to="products" smooth={true} duration={500} className="mx-4 hover:text-purple-900 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={handleLinkClick}>
             Products
-          </button>
-          <button onClick={() => handleLinkClick('about')} className="mx-4 hover:text-purple-900 font-code text-lg border-b border-transparent hover:border-purple-900">
+          </Link>
+          <Link to="about" smooth={true} duration={500} className="mx-4 hover:text-purple-900 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={handleLinkClick}>
             About
-          </button>
-          <NavLink to="/Registered" activeClassName="text-purple-900" className="mx-4 hover:text-purple-900 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={() => setIsOpen(false)}>
+          </Link>
+
+          <NavLink to="/Registered" activeClassName="text-purple-900" className="mx-4 hover:text-purple-900 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={handleLinkClick}>
             Sign Up
           </NavLink>
         </div>
