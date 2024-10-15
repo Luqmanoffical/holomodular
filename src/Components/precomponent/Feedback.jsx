@@ -1,13 +1,13 @@
 import { motion } from 'framer-motion';
 import planet from '../../assets/planet-09.png'
-import stamp from '../../assets/stamp.png'
+import stamp from '../../assets/stamp1.png'
 import dany from "../../assets/danny.jpeg"
 import styles from '../Style';
 import { fadeIn, staggerContainer, zoomIn } from '../lib/motion';
 import {Link} from "react-router-dom"
 
 const Feedback = () => (
-  <section className={`${styles.paddings}`}>
+  <section className={`${styles.paddings} `}>
     <motion.div
       variants={staggerContainer}
       initial="hidden"

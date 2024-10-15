@@ -7,7 +7,7 @@ import  FAQs from './Components/FAQs/FAQs.jsx';
 import Privacy from './Components/Privacy Policy/Privacy.jsx';
 import  News from './Components/News/News.jsx';
 import ScrollToTop from './Components/ScrollToTop.jsx';
-
+// import Signup from './Components/SignUp'
 
 function App() {
   return (
@@ -20,6 +20,8 @@ function App() {
         <Route path="/policy" element={<Privacy/>} />
         <Route path="/conditions" element={< Conditions/>} />
         <Route path="/news" element={< News/>} />
+        {/* <Route path="/Registered" element={< SignUp/>} /> */}
+
       </Routes>
     </Router>
   );

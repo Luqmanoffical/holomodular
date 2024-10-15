@@ -16,7 +16,8 @@ function Home() {
     <div className="overflow-hidden" >
  
   <Navbar />
-  <Hero />
+ <div  id="hero">
+  <Hero /></div>
   <div className="relative">
       <About />
       <div className="gradient-03 z-0" />
@@ -28,12 +29,13 @@ function Home() {
       <WhatsNew />
     </div>
     <World />
-    <div className="relative">
-      <Insights />
+    <div className="relative"  id="products">
+      <Insights />  
       <div className="gradient-04 z-0" />
       <Free/>
+      <div  id="about">
       <Feedback />
-    </div>
+    </div></div>
     <Footer />
  
     
