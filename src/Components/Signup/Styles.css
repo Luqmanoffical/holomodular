@@ -1,0 +1,16 @@
+/* Neon border effect */
+.neon-border-purple {
+    border: 2px solid rgba(128, 0, 128, 0.5); /* Light purple border */
+    box-shadow: 0 0 15px rgba(128, 0, 128, 0.5),
+                0 0 30px rgba(128, 0, 128, 0.3),
+                0 0 45px rgba(128, 0, 128, 0.2);
+    border-radius: 20px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .neon-border-purple:hover {
+    box-shadow: 0 0 20px rgba(128, 0, 128, 0.8),
+                0 0 40px rgba(128, 0, 128, 0.6),
+                0 0 60px rgba(128, 0, 128, 0.4);
+  }
+  
