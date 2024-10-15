@@ -116,7 +116,7 @@ const Register = () => {
 
               {/* Submit Button */}
               <div className="flex items-center justify-center mb-4">
-                <button>
+                <button className='border-2 border-gray-300 rounded px-3 py-1'>
                   <span className="text-white">Sign In</span>
                 </button>
               </div>
