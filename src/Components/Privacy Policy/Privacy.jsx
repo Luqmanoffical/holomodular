@@ -1,4 +1,6 @@
-import Navbar from '../precomponent/Navbar';
+// import Navbar from '../precomponent/Navbar';
+import Navbar from '../header'
+
 import  Footer  from '../precomponent/Footer';
 import React, { useState, useEffect } from "react";
 

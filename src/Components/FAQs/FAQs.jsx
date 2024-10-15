@@ -1,8 +1,9 @@
 import React from "react";
 import "../Css/contact.css";
 import Accordion from "../Conditions/Accordian";
-import Navbar from '../precomponent/Navbar';
+// import Navbar from '../precomponent/Navbar';
 import  Footer  from '../precomponent/Footer';
+import Navbar from '../header'
 
 function FAQs() {
   return (

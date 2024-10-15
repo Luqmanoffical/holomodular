@@ -1,7 +1,9 @@
 import React from 'react';
 import { Timeline } from "../ui/timeline";
-import Navbar from '../precomponent/Navbar';
+// import Navbar from '../precomponent/Navbar';
 import  Footer  from '../precomponent/Footer';
+import Navbar from '../header'
+
 
 export function Blog() {
   const data = [
