@@ -67,6 +67,7 @@ function Privacy() {
               className="text-purple-600"
             >
               Support@HoloModular.com{" "}
+        
             </Link>{" "}
             .
           </p>
@@ -563,7 +564,13 @@ See Section 15 above entitled “Effective Date; Updates to Privacy Policy” fo
             content={
               <>
                 <p className="my-2  
-                 sm:my-3 md:my-4 lg:my-5 xl:my-6 text-sm sm:text-base md:text-lg lg:text-xl xl:text-xl">If you have questions or comments about this notice, you may contact our Data Protection Officer (DP), Danny Logsdon, by email at Support@HoloModular.com, by phone at 410-493-1879 or by US Mail to:
+                 sm:my-3 md:my-4 lg:my-5 xl:my-6 text-sm sm:text-base md:text-lg lg:text-xl xl:text-xl">If you have questions or comments about this notice, you may contact our Data Protection Officer (DP), Danny Logsdon, by email at 
+                   <Link
+                 href="mailto:Support@HoloModular.com"
+                 className="text-purple-600"
+               >
+                  Support@HoloModular.com
+                  </Link>  , by phone at 410-493-1879 or by US Mail to:
               </p>
              <div className=" font-bold">
               <p>

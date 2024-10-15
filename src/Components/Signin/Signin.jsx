@@ -123,7 +123,7 @@ const Register = () => {
             </form>
 
             <div className="mt-4 text-center text-[#ffffffdc]" >
-              <p>No Account? <span className="text-[#ffffffdc] font-semibold">Register Here!</span></p>
+              <p>No Account? <span className="text-[#ffffffdc] font-semibold"><Link to="/Registered">Register Here!</Link></span></p>
               <p className="text-sm mt-1 text-[#ffffffdc]">Registration takes less than a minute but gives you access to your free online account!</p>
               <Link to="/Registered" className="inline-block mt-2 text-[#ffffffdc] hover:text-[#aab0b1] font-bold transition-colors duration-300">
                 Register <FaUserCircle className="inline-block ml-1" />
