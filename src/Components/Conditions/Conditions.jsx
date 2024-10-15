@@ -13,7 +13,7 @@ function Conditions() {
         <div>
           <h1 className="text-3xl sm:text-4xl md:text-4xl lg:text-4xl py-4 sm:py-6 font-bold text-center">
             Terms and Conditions of Use for{" "}
-            <span className="text-purple-600">Service Brick</span>
+            <span className="text-purple-600">HoloModular</span>
           </h1>
         </div>
         <div>

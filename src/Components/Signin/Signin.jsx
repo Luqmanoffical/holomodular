@@ -25,7 +25,7 @@ const Register = () => {
             Welcome
           </h1>
           <p className="text-sm pt-2  sm:text-[20px]" >
-            Introducing Microservices Foundation
+            Introducing Metaverse Foundation
           </p>
 
          <img src={signinimg} className='w-[500px]'/>

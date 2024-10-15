@@ -86,8 +86,9 @@ const Footer = () => (
 
         <div className="flex flex-col md:flex-row items-center justify-between flex-wrap gap-4 -mt-10">
           <div className="flex justify-center mb-4 md:mb-0">
+            <Link to="/">
             <img src={logo} alt="logo" className="h-20" />
-          </div>
+            </Link>   </div>
 
           <div className="flex flex-col md:flex-row items-center space-x-0 md:space-x-10 mb-4 md:mb-0">
             <Link to="/news" className="text-lg text-white font-semibold hover:text-purple-600 cursor-pointer mb-2 md:mb-0">
