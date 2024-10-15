@@ -32,23 +32,23 @@
 //         {/* Mobile Menu */}
 //         <div className={`flex-col md:hidden ${isOpen ? 'flex absolute left-0 top-[64px] bg-n-8 w-full z-50' : 'hidden'}`}>
 //           <div className="flex flex-col w-full">
-//             <NavLink to="/" exact activeClassName="text-purple-900" className="my-2 mx-4 hover:text-purple-900 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={handleLinkClick}>
+//             <NavLink to="/" exact activeClassName="text-purple-900" className="my-2 mx-4 hover:text-purple-400 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={handleLinkClick}>
 //               Home
 //             </NavLink>
 //             <NavLink to="/" exact onClick={handleLinkClick}>
 
-//             <Link to="about" smooth={true} duration={500} className="my-2 mx-4 hover:text-purple-900 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={handleLinkClick}>
+//             <Link to="about" smooth={true} duration={500} className="my-2 mx-4 hover:text-purple-400 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={handleLinkClick}>
 //               About
 //             </Link>
 //             </NavLink>
 //             <NavLink to="/" exact onClick={handleLinkClick}>
 
-//             <Link to="products" smooth={true} duration={500} className="my-2 mx-4 hover:text-purple-900 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={handleLinkClick}>
+//             <Link to="products" smooth={true} duration={500} className="my-2 mx-4 hover:text-purple-400 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={handleLinkClick}>
 //               Products
 //             </Link>
 //             </NavLink>
 
-//             <NavLink to="/Registered" activeClassName="text-purple-900" className="my-2 mx-4 hover:text-purple-900 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={handleLinkClick}>
+//             <NavLink to="/Registered" activeClassName="text-purple-900" className="my-2 mx-4 hover:text-purple-400 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={handleLinkClick}>
 //               Sign Up
 //             </NavLink>
 //           </div>
@@ -56,17 +56,17 @@
 
 //         {/* Desktop Menu */}
 //         <div className="hidden md:flex md:flex-row">
-//           <NavLink to="/" exact activeClassName="text-purple-900" className="mx-4 hover:text-purple-900 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={handleLinkClick}>
+//           <NavLink to="/" exact activeClassName="text-purple-900" className="mx-4 hover:text-purple-400 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={handleLinkClick}>
 //             Home
 //           </NavLink>
-//           <Link to="products" smooth={true} duration={500} className="mx-4 hover:text-purple-900 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={handleLinkClick}>
+//           <Link to="products" smooth={true} duration={500} className="mx-4 hover:text-purple-400 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={handleLinkClick}>
 //             Products
 //           </Link>
-//           <Link to="about" smooth={true} duration={500} className="mx-4 hover:text-purple-900 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={handleLinkClick}>
+//           <Link to="about" smooth={true} duration={500} className="mx-4 hover:text-purple-400 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={handleLinkClick}>
 //             About
 //           </Link>
 
-//           <NavLink to="/Registered" activeClassName="text-purple-900" className="mx-4 hover:text-purple-900 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={handleLinkClick}>
+//           <NavLink to="/Registered" activeClassName="text-purple-900" className="mx-4 hover:text-purple-400 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={handleLinkClick}>
 //             Sign Up
 //           </NavLink>
 //         </div>
@@ -100,7 +100,9 @@ const Navbar = () => {
       <div className="absolute w-[50%] inset-0 gradient-01" />
       <div className={`${styles.innerWidth} mx-auto flex justify-between items-center`}>
         <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white">
+          <NavLink to="/">
           <img src={logo} alt="logo" className='h-16 lg:h-24 mt-0 lg:-mt-6 object-contain' />
+          </NavLink>
         </h2>
 
         <button onClick={toggleMenu} className="block md:hidden text-white">
@@ -110,20 +112,20 @@ const Navbar = () => {
         {/* Mobile Menu */}
         <div className={`flex-col md:hidden ${isOpen ? 'flex absolute left-0 top-[64px] bg-n-8 w-full z-50' : 'hidden'}`}>
           <div className="flex flex-col w-full">
-            <NavLink to="/" exact activeClassName="text-purple-900" className="my-2 mx-4 hover:text-purple-900 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={handleLinkClick}>
+            <NavLink to="/" exact activeClassName="text-purple-900" className="my-2 mx-4 hover:text-purple-400 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={handleLinkClick}>
               Home
             </NavLink>
             <NavLink to="/" onClick={handleLinkClick}>
-              <Link to="about" smooth={true} duration={500} className="my-2 mx-4 hover:text-purple-900 font-code text-lg border-b border-transparent hover:border-purple-900">
+              <Link to="about" smooth={true} duration={500} className="my-2 mx-4 hover:text-purple-400 font-code text-lg border-b border-transparent hover:border-purple-900">
                 About
               </Link>
             </NavLink>
             <NavLink to="/" onClick={handleLinkClick}>
-              <Link to="products" smooth={true} duration={500} className="my-2 mx-4 hover:text-purple-900 font-code text-lg border-b border-transparent hover:border-purple-900">
+              <Link to="products" smooth={true} duration={500} className="my-2 mx-4 hover:text-purple-400 font-code text-lg border-b border-transparent hover:border-purple-900">
                 Products
               </Link>
             </NavLink>
-            <NavLink to="/Registered" activeClassName="text-purple-900" className="my-2 mx-4 hover:text-purple-900 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={handleLinkClick}>
+            <NavLink to="/Registered" activeClassName="text-purple-900" className="my-2 mx-4 hover:text-purple-400 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={handleLinkClick}>
               Sign Up
             </NavLink>
           </div>
@@ -131,16 +133,16 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex md:flex-row">
-          <NavLink to="/" exact activeClassName="text-purple-900" className="mx-4 hover:text-purple-900 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={handleLinkClick}>
+          <NavLink to="/" exact activeClassName="text-purple-900" className="mx-4 hover:text-purple-400 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={handleLinkClick}>
             Home
           </NavLink>
-          <Link to="products" smooth={true} duration={500} className="mx-4 hover:text-purple-900 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={handleLinkClick}>
+          <Link to="products" smooth={true} duration={500} className="mx-4 hover:text-purple-400 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={handleLinkClick}>
             Products
           </Link>
-          <Link to="about" smooth={true} duration={500} className="mx-4 hover:text-purple-900 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={handleLinkClick}>
+          <Link to="about" smooth={true} duration={500} className="mx-4 hover:text-purple-400 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={handleLinkClick}>
             About
           </Link>
-          <NavLink to="/Registered" activeClassName="text-purple-900" className="mx-4 hover:text-purple-900 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={handleLinkClick}>
+          <NavLink to="/Registered" activeClassName="text-purple-900" className="mx-4 hover:text-purple-400 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={handleLinkClick}>
             Sign Up
           </NavLink>
         </div>

@@ -32,8 +32,9 @@ const Navbar = () => {
       <div className="absolute w-[50%] inset-0 gradient-01" />
       <div className={`${styles.innerWidth} mx-auto flex justify-between items-center`}>
         <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white">
+                    <NavLink to="/">
           <img src={logo} alt="logo" className='h-16 lg:h-24 mt-0 lg:-mt-6 object-contain' />
-        </h2>
+          </NavLink>     </h2>
 
         <button onClick={toggleMenu} className="block md:hidden text-white">
           <FontAwesomeIcon icon={isOpen ? faTimes : faBars} size="lg" />
@@ -42,16 +43,16 @@ const Navbar = () => {
         {/* Mobile Menu */}
         <div className={`flex-col md:hidden ${isOpen ? 'flex absolute left-0 top-[64px] bg-n-8 w-full z-50' : 'hidden'}`}>
           <div className="flex flex-col w-full">
-            <NavLink to="/" exact activeClassName="text-purple-900" className="my-2 mx-4 hover:text-purple-900 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={handleLinkClick}>
+            <NavLink to="/" exact activeClassName="text-purple-900" className="my-2 mx-4 hover:text-purple-400 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={handleLinkClick}>
               Home
             </NavLink>
-            <button onClick={() => handleLinkClick('about')} className="my-2 mx-4 hover:text-purple-900 font-code text-lg border-b border-transparent hover:border-purple-900">
+            <button onClick={() => handleLinkClick('about')} className="my-2 mx-4 hover:text-purple-400 font-code text-lg border-b border-transparent hover:border-purple-900">
               About
             </button>
-            <button onClick={() => handleLinkClick('products')} className="my-2 mx-4 hover:text-purple-900 font-code text-lg border-b border-transparent hover:border-purple-900">
+            <button onClick={() => handleLinkClick('products')} className="my-2 mx-4 hover:text-purple-400 font-code text-lg border-b border-transparent hover:border-purple-900">
               Products
             </button>
-            <NavLink to="/Registered" activeClassName="text-purple-900" className="my-2 mx-4 hover:text-purple-900 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={() => setIsOpen(false)}>
+            <NavLink to="/Registered" activeClassName="text-purple-900" className="my-2 mx-4 hover:text-purple-400 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={() => setIsOpen(false)}>
               Sign Up
             </NavLink>
           </div>
@@ -59,16 +60,16 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex md:flex-row">
-          <NavLink to="/" exact activeClassName="text-purple-900" className="mx-4 hover:text-purple-900 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={() => setIsOpen(false)}>
+          <NavLink to="/" exact activeClassName="text-purple-900" className="mx-4 hover:text-purple-400 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={() => setIsOpen(false)}>
             Home
           </NavLink>
-          <button onClick={() => handleLinkClick('products')} className="mx-4 hover:text-purple-900 font-code text-lg border-b border-transparent hover:border-purple-900">
+          <button onClick={() => handleLinkClick('products')} className="mx-4 hover:text-purple-400 font-code text-lg border-b border-transparent hover:border-purple-900">
             Products
           </button>
-          <button onClick={() => handleLinkClick('about')} className="mx-4 hover:text-purple-900 font-code text-lg border-b border-transparent hover:border-purple-900">
+          <button onClick={() => handleLinkClick('about')} className="mx-4 hover:text-purple-400 font-code text-lg border-b border-transparent hover:border-purple-900">
             About
           </button>
-          <NavLink to="/Registered" activeClassName="text-purple-900" className="mx-4 hover:text-purple-900 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={() => setIsOpen(false)}>
+          <NavLink to="/Registered" activeClassName="text-purple-900" className="mx-4 hover:text-purple-400 font-code text-lg border-b border-transparent hover:border-purple-900" onClick={() => setIsOpen(false)}>
             Sign Up
           </NavLink>
         </div>

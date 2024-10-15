@@ -7,7 +7,7 @@ import { fadeIn, staggerContainer, zoomIn } from '../lib/motion';
 import {Link} from "react-router-dom"
 
 const Feedback = () => (
-  <section className={`${styles.paddings} `}>
+  <section className={`${styles.paddings} -mt-0 lg:-mt-60 `}>
     <motion.div
       variants={staggerContainer}
       initial="hidden"
