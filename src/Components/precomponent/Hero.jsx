@@ -52,7 +52,7 @@ const Hero = () => (
     WebkitTextFillColor: "transparent",
   }}
 >
-  Celebrating 3 Years of Innovation at HoloModular
+  <span className='font-extrabold font-serif  text2xl lg:text-5xl'>Celebrating 3 Years</span> of Innovation at HoloModular
 </h1>
       <p className='text-base lg:text-xl text-justify mr-8 font-serif text-gray-200'  >
         At HoloModular, we've spent the past three years shaping the future of technology. From artificial intelligence to cloud computing, augmented, and virtual reality, our passion for innovation drives us to push the boundaries of what's possible. Here's to many more years of groundbreaking achievements!
