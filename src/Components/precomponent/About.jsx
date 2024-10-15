@@ -16,11 +16,11 @@ const About = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
-      <TypingText title="Open Source Company" textStyles="text-center font-bold text-5xl" />
+      <TypingText title="Open Source Company" textStyles="text-center font-bold text-2xl md:text-3xl lg:text-5xl" />
 
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
-        className="mt-[8px] font-normal sm:text-2xl text-lg text-center text-secondary-white"
+        className="mt-[8px] font-normal  text-base md:text-lg text-center text-secondary-white"
       >
      We support the open-source community and release our core platforms under the MIT permissive license so that everyone can learn and share.
        </motion.p>

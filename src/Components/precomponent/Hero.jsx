@@ -8,7 +8,7 @@ import styles from '../Style';
 
 const Hero = () => (
   <section
-    className='min-h-screen mt-16 w-full flex flex-col md:flex-row justify-center items-center bg-contain bg-no-repeat'
+    className='min-h-screen mt-20 w-full flex flex-col md:flex-row justify-center items-center bg-contain bg-no-repeat'
     style={{
       backgroundImage: `url(${bg})`,
     }}
@@ -18,12 +18,12 @@ const Hero = () => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`w-full  flex lg:flex-row flex-col `}
+      className={`w-full  flex md:flex-row flex-col `}
     >
 
   <motion.div
         variants={planetVariants('left')}
-        className={`w-1/2  `}
+        className={`w-full md:w-1/2  `}
 
       >
 
@@ -40,12 +40,12 @@ const Hero = () => (
     </div> */}
  <motion.div
         variants={fadeIn('left', 'tween', 0.2, 1)}
-        className={`w-1/2  flex justify-center items-center mx-9 flex-col`}
+        className={` w-full md:w-1/2  flex justify-center items-center mx-4 md:mx-0 lg:mx-9 flex-col`}
 
       >
     {/* <div className='w-full  flex flex-col ml-20 -mt-14 justify-center items-center text-center md:text-left'> */}
     <h1
-  className="text-4xl md:text-4xl font-bold mb-4 font-serif "
+  className="text-2xl lg:text-4xl font-bold mb-4 font-serif "
   style={{
     background: "linear-gradient(to right, #EDC967, #D2AC47, #F7EF8A)",
     WebkitBackgroundClip: "text",
@@ -54,7 +54,7 @@ const Hero = () => (
 >
   Celebrating 3 Years of Innovation at HoloModular
 </h1>
-      <p className='text-lg md:text-xl text-justify mr-8 font-serif text-gray-200'  >
+      <p className='text-base lg:text-xl text-justify mr-8 font-serif text-gray-200'  >
         At HoloModular, we've spent the past three years shaping the future of technology. From artificial intelligence to cloud computing, augmented, and virtual reality, our passion for innovation drives us to push the boundaries of what's possible. Here's to many more years of groundbreaking achievements!
       </p>
     {/* </div> */}

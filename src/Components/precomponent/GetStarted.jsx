@@ -31,8 +31,8 @@ const GetStarted = () => (
         className="flex-1  flex justify-center flex-col"
       >
         <TypingText className='text-xl' title="| How Holomodular Works" />
-        <TitleText title={<h2 className="text-3xl" >Get started And Unlock the Future of Technology</h2>}  />
-        <div className="mt-[31px] flex flex-col max-w-[570px] gap-[24px]">
+        <TitleText title={<h2 className=" text-2xl md:text-3xl" >Get started And Unlock the Future of Technology</h2>}  />
+        <div className="mt-[31px] text-justify flex flex-col max-w-[570px] gap-[24px]">
           {startingFeatures.map((feature, index) => (
             <StartSteps
               key={feature}

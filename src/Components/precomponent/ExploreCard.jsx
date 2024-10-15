@@ -22,9 +22,9 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
         {title}
       </h3>
     ) : (
-      <div className="absolute bottom-0 p-8 flex justify-start w-full flex-col bg-[rgba(0,0,0,0.5)] rounded-b-[24px]">
+      <div className="absolute bottom-0 p-8 flex justify-start w-full flex-col lg:bg-[rgba(0,0,0,0.5)] rounded-b-[24px]">
         <div
-          className={`${styles.flexCenter} w-[60px] h-[60px] rounded-[24px] glassmorphism mb-[16px]`}
+          className={`${styles.flexCenter}    h-[50px] w-[50px] lg:w-[60px] lg:h-[60px] rounded-[24px] glassmorphism mb-[16px]`}
         >
           <img
             src={head}
@@ -32,10 +32,10 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
             className="w-1/2 h-1/2 object-contain"
           />
         </div>
-        <p className="font-normal text-[16px] leading-[20.16px] text-white uppercase">
+        <p className="font-normal text-[16px] leading-[5.16px]  lg:leading-[20.16px]  lg:text-white uppercase">
           HoloModular
         </p>
-        <h2 className="mt-[24px] font-semibold sm:text-[32px] text-[24px] text-white">
+        <h2 className=" mt-3 lg:mt-[24px] font-semibold sm:text-[32px] text-[24px] text-purple-800 lg:text-white">
           {title}
         </h2>
       </div>

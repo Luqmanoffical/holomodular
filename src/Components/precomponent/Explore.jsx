@@ -1,5 +1,3 @@
-
-
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 
@@ -20,10 +18,10 @@ const Explore = () => {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
-        <TypingText title="Explore New Realities" textStyles="text-center text-xl" />
+        <TypingText title="Explore New Realities" textStyles="text-center text-base md:text-xl" />
         <TitleText
           title={<>Unleash your imagination with  <br className="md:block hidden " /> cutting-edge technology</>}
-          textStyles="text-center text-5xl"
+          textStyles="text-center text-2xl md:text-3xl lg:text-5xl"
         />
         
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">

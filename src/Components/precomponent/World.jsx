@@ -19,20 +19,20 @@ const World = () => (
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
 
-      <TypingText title="Supporting Open Source Software" textStyles="text-center text-3xl" />
+      <TypingText title="Supporting Open Source Software" textStyles="text-center text-lg lg:text-3xl" />
       <TitleText
         title={(
           <>We support free and open source software and use the MIT permissive license for our core platforms so that everyone can learn and share.
           </>
         )}
-        textStyles="text-center"
+        textStyles="text-center font-thin text-sm lg:text-lg"
       />
 
       <motion.div
         variants={fadeIn('up', 'tween', 0.3, 1)}
         className="relative mt-[68px] flex w-full h-[550px]"
       >
-        <img src={map} alt="map" className="w-full h-full object-cover" />
+        <img src={map} alt="map" className="w-full h-full -my-56 md:-my-0 object-contain md:object-cover" />
 
         {/* <div className="absolute bottom-20 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
           <img src={p1} alt="people" className="w-full h-full" />
