@@ -25,7 +25,7 @@ function News() {
  
 <Navbar/>  
 <div className="absolute top-0  w-full aspect-square bg-radial-gradient from-[#341947] to-[#28206C]/0 to-70% pointer-events-none" />
-      <div className="p-4 mt-20 sm:p-6 md:p-8 lg:p-6 xl:p-6">
+      <div className="p-4 mt-28 sm:p-6 md:p-8 lg:p-6 xl:p-6">
         <div className="text-center">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-purple-600 xl:text-6xl font-bold">
           Latest News

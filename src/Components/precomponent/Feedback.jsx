@@ -1,25 +1,4 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import { motion } from 'framer-motion';
 import { TypingText } from './index';
 import star from "../../assets/arrow-down.svg"

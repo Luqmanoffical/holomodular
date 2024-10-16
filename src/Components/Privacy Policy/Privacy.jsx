@@ -32,7 +32,7 @@ function Privacy() {
   return (
     <div className=" text-white">
       <Navbar/>
-      <div className="mt-20 text-white p-4 sm:p-6 md:p-8 lg:p-6 xl:p-6">
+      <div className="mt-28 text-white p-4 sm:p-6 md:p-8 lg:p-6 xl:p-6">
         <div className="text-center">
           <h1 className="text-3xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-4xl  font-bold  ">
             Privacy Policy for
@@ -628,7 +628,7 @@ const Section = ({ isOpen, onToggle, title, content }) => (
         {content}
         <button
           onClick={onToggle}
-          className="bg-transparent text-purple-600   py-2 px-4 mt-4 hover:text-orange-300 transition-all duration-300"
+          className="bg-transparent text-purple-600   py-2 px-4 mt-4 hover:text-white transition-all duration-300"
         >
           CLOSE
         </button>
@@ -637,7 +637,7 @@ const Section = ({ isOpen, onToggle, title, content }) => (
     {!isOpen && (
       <button
         onClick={onToggle}
-        className="bg-transparent text-purple-600   py-2 px-4 mt-4 hover:text-orange-300 transition-all duration-300"
+        className="bg-transparent text-purple-600   py-2 px-4 mt-4 hover:text-white transition-all duration-300"
       >
         READ MORE
       </button>

@@ -17,10 +17,10 @@ function FAQs() {
           </h1>
         </div>
         <div class="px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 2xl:px-24">
-          <div className="py-4 sm:py-6 md:py-8 lg:py-10 xl:py-12 ">
+          <div className="py-4 sm:py-6  md:py-8 lg:py-10 xl:py-12 ">
             <Accordion title=" What am I buying?">
               <div>
-                <p className="my-3 pt-5 text-gray-300 ">
+                <p className="my-3 pt-5   text-gray-300 ">
                   ServiceBricks is open source software and is free to use for
                   commercial purposes. Our plans allow you access to our online
                   tools{" "}

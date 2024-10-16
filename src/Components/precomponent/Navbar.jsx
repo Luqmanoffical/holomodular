@@ -251,7 +251,7 @@ const Navbar = () => {
     let lastActiveLink = '';
 
     const handleScroll = () => {
-      const sections = [ 'products', 'about'];
+      const sections = ['home', 'products', 'about'];
       const scrollPosition = window.scrollY + 1;
     
       let currentActiveLink = '';
@@ -291,23 +291,7 @@ const Navbar = () => {
     
 
 
-    // const handleScroll = () => {
-    //   const sections = ['home', 'products' , 'about'];
-    //   const scrollPosition = window.scrollY + 1;
-
-    //   sections.forEach(section => {
-    //     const element = document.getElementById(section);
-    //     if (element) {
-    //       const offsetTop = element.offsetTop;
-    //       const offsetHeight = element.offsetHeight;
-
-    //       if (scrollPosition >= offsetTop && scrollPosition < offsetTop + offsetHeight) {
-    //         setActiveLink(`/${section}`);
-    //       }
-    //     }
-    //   });
-    // };
-
+    
     window.addEventListener('scroll', handleScroll);
 
     return () => {
@@ -347,10 +331,10 @@ const Navbar = () => {
   return (
     <nav className={`${styles.xPaddings} p-3 bg-n-8 w-[100vw] fixed top-0 left-0 z-50`}>
       <div className="w-[50%] inset-0 gradient-01" />
-      <div className={`${styles.innerWidth} mx-auto flex justify-between items-center`}>
-        <h2 className="font-extrabold text-[24px] flex flex-col items-center leading-[30.24px] text-white">
-        <NavLink to="/"><img src={logo} alt="logo" className='h-16 lg:h-24   object-contain' />
-        </NavLink>  </h2>
+      <div className={`${styles.innerWidth}  flex justify-between items-center`}>
+        
+        <NavLink to="/"><img src={logo} alt="logo" className='h-16 lg:h-24 -ml-8  object-contain' />
+        </NavLink> 
 
         <button onClick={toggleMenu} className="block md:hidden text-white">
           <FontAwesomeIcon icon={isOpen ? faTimes : faBars} size="lg" />

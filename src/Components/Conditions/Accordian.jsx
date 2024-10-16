@@ -22,7 +22,7 @@ function Accordion({ title, children }) {
         />
       </h2>
     </div>
-    {isOpen && <div className="accordion-content mt-0 sm:mt-1 md:mt-3 lg:mt-4 text-xs sm:text-sm md:text-base">{children}</div>}
+    {isOpen && <div className="accordion-content mt-0 sm:mt-1 md:mt-3 lg:mt-4  text-base">{children}</div>}
   </div>
     );
 }

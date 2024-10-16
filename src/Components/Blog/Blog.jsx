@@ -92,7 +92,7 @@ export function Blog() {
       content: (
         <div>
           <p
-            className="text-neutral-800 text-neutral-200 text-xs md:text-sm font-normal mb-4">
+            className=" text-neutral-200 text-xs md:text-sm font-normal mb-4">
             Deployed 5 new components on MicroServices today
           </p>
           <div className="mb-8">
