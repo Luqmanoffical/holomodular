@@ -7,7 +7,7 @@ import { staggerContainer } from '../lib/motion';
 import { InsightCard, TitleText, TypingText } from './index';
 
 const Insights = () => (
-  <section className={`${styles.paddings}    -mt-[30rem] md:-mt-0 relative z-10`}>
+  <section className={`pt-32  md:pt-32 sm:px-16 xs:px-8 px-6 py-12    -mt-[30rem] md:-mt-0  relative z-10`}>
     <motion.div
       variants={staggerContainer}
       initial="hidden"

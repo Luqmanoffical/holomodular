@@ -8,11 +8,11 @@ const InsightCard = ({ imgUrl, title, subtitle, index, url }) => (
     variants={fadeIn('up', 'spring', index * 0.5, 1)}
     className="flex md:flex-row flex-col gap-4"
   >
-    <div  className=" h-[100px]       md:w-[270px] w-full md:h-[200px] rounded-[32px] flex justify-center items-center object-center bg-white">
+    <div  className=" h-[130px]       md:w-[270px] w-full md:h-[200px] rounded-[32px] flex justify-center items-center object-center bg-white">
     <img
       src={imgUrl}
       alt="planet-01"
-     className= "p-10 md:p-3    flex self-center"
+     className= "p-16 md:p-6    flex self-center"
     /></div>
     <div className="w-full flex justify-between items-center">
       <div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px]">

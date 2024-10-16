@@ -23,14 +23,14 @@ const Hero = () => (
 
   <motion.div
         variants={planetVariants('left')}
-        className={`w-full md:w-1/2  `}
+        className={`w-full md:w-1/2 flex justify-center items-center  `}
 
       >
 
          <img
           src={ce}
           alt="get-started"
-          className="w-[90%] h-[90%] "
+          className="w-[70%] h-[70%] md:w-[90%] md:h-[90%] "
         /> 
       </motion.div>
       
@@ -40,7 +40,7 @@ const Hero = () => (
     </div> */}
  <motion.div
         variants={fadeIn('left', 'tween', 0.2, 1)}
-        className={` w-full md:w-1/2  flex justify-center items-center mx-4 md:mx-0 lg:mx-9 flex-col`}
+        className={` w-full md:w-1/2  flex justify-center pt-12 md:pt-0 items-center mx-4 md:mx-0 lg:mx-9 flex-col`}
 
       >
     {/* <div className='w-full  flex flex-col ml-20 -mt-14 justify-center items-center text-center md:text-left'> */}

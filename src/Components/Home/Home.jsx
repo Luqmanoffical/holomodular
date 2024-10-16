@@ -29,19 +29,22 @@ function Home() {
       <WhatsNew />
     </div></div>
   <div >
-    <World /></div>
-    <div className="relative" id="products"  >
+    
+  <div className='-pb-32'>
+    <World /></div></div>
+    <div className="relative " id="products"  >
       <div  >
       <Insights /></div>  
       <div className="gradient-04 z-0" />
       
       </div>
+      <div className='-pb-32'>
       
       <Free/>
+      </div>
+  
       <div  id="about">
-      
       <About />
-      
     </div>
     <Footer />
  
