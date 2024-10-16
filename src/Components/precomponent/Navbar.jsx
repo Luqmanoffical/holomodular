@@ -248,55 +248,55 @@ const Navbar = () => {
   useEffect(() => {
 
 
-    let lastActiveLink = '';
+    // let lastActiveLink = '';
 
-    const handleScroll = () => {
-      const sections = ['home', 'products', 'about'];
-      const scrollPosition = window.scrollY + 1;
+    // const handleScroll = () => {
+    //   const sections = ['home', 'products', 'about'];
+    //   const scrollPosition = window.scrollY + 1;
     
-      let currentActiveLink = '';
+    //   let currentActiveLink = '';
     
-      sections.forEach(section => {
-        const element = document.getElementById(section);
-        if (element) {
-          const offsetTop = element.offsetTop;
-          const offsetHeight = element.offsetHeight;
+    //   sections.forEach(section => {
+    //     const element = document.getElementById(section);
+    //     if (element) {
+    //       const offsetTop = element.offsetTop;
+    //       const offsetHeight = element.offsetHeight;
     
-          if (scrollPosition >= offsetTop && scrollPosition < offsetTop + offsetHeight) {
-            currentActiveLink = `/${section}`;
-          }
-        }
-      });
+    //       if (scrollPosition >= offsetTop && scrollPosition < offsetTop + offsetHeight) {
+    //         currentActiveLink = `/${section}`;
+    //       }
+    //     }
+    //   });
     
-      if (currentActiveLink && currentActiveLink !== lastActiveLink) {
-        setActiveLink(currentActiveLink);
-        lastActiveLink = currentActiveLink; // Update the last active link
-      }
-    };
+    //   if (currentActiveLink && currentActiveLink !== lastActiveLink) {
+    //     setActiveLink(currentActiveLink);
+    //     lastActiveLink = currentActiveLink; // Update the last active link
+    //   }
+    // };
     
-    // Throttle the scroll event listener for performance
-    let isThrottled = false;
-    const throttledScrollHandler = () => {
-      if (!isThrottled) {
-        handleScroll();
-        isThrottled = true;
-        setTimeout(() => {
-          isThrottled = false;
-        }, 200); // Adjust the timeout as necessary
-      }
-    };
+    // // Throttle the scroll event listener for performance
+    // let isThrottled = false;
+    // const throttledScrollHandler = () => {
+    //   if (!isThrottled) {
+    //     handleScroll();
+    //     isThrottled = true;
+    //     setTimeout(() => {
+    //       isThrottled = false;
+    //     }, 200); // Adjust the timeout as necessary
+    //   }
+    // };
     
-    // Add event listener
-    window.addEventListener('scroll', throttledScrollHandler);
+    // // Add event listener
+    // window.addEventListener('scroll', throttledScrollHandler);
     
 
 
     
-    window.addEventListener('scroll', handleScroll);
+    // window.addEventListener('scroll', handleScroll);
 
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
+    // return () => {
+    //   window.removeEventListener('scroll', handleScroll);
+    // };
 
 
     const handlePathChange = () => {
