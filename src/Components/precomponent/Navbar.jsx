@@ -404,8 +404,9 @@ const Navbar = () => {
             Sign Up
           </NavLink>
           <NavLink to="/signin" onClick={() => setActiveLink('/signin')} className={`relative inline-block font-code text-lg border-b-4 border-transparent px-3 py-2 rounded transition duration-300 ease-in-out transform hover:scale-105 ${activeLink === '/signin' ? 'text-purple-400 border-b border-purple-700' : ''}`}>
-            <span className="absolute inset-0 bg-gradient-to-r from-purple-800 border border-gray-100 to-purple-600 rounded"></span>
+            <span className="absolute inset-0 bg-gradient-to-r from-purple-900 border border-gray-100 to-purple-500 rounded"></span>
             <span className="relative z-10 text-white">Sign In</span>
+            
           </NavLink>
         </div>
       </div>
