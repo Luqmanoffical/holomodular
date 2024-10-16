@@ -2,9 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { FaEnvelope, FaLock, FaUserCircle } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import  Footer  from '../precomponent/Footer';
-import Navbar from '../header'
+// import Navbar from '../header'
 import { useForm } from 'react-hook-form';
 import signinimg from '../../assets/signinimg.png'
+import Navbar from '../precomponent/Navbar';
 
 const Register = () => {
   const { register, handleSubmit, watch, formState: { errors } } = useForm();

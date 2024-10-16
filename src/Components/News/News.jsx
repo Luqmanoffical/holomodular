@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import icons from "../../assets/icon.png"
-// import Navbar from '../precomponent/Navbar';
+import Navbar from '../precomponent/Navbar';
 import  Footer  from '../precomponent/Footer';
 import "../Css/privacy.css";
-import Navbar from '../header'
+// import Navbar from '../header'
 
 
 function News() {

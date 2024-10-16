@@ -1,9 +1,9 @@
 import React from "react";
 import Accordion from "./Accordian.jsx";
 import { Link } from "react-router-dom";
-// import Navbar from '../precomponent/Navbar';
+import Navbar from '../precomponent/Navbar';
 import  Footer  from '../precomponent/Footer';
-import Navbar from '../header'
+// import Navbar from '../header'
 
 function Conditions() {
   return (

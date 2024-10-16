@@ -95,11 +95,12 @@ Impressum
           variants={zoomIn(0.4, 1)}
           className="lg:block hidden absolute -left-[10%] top-[18%]"
         >
-          <img
+     <Link to="/Registered">     <img
             src={stamp}
             alt="stamp"
             className="w-[155px] h-[155px] object-contain"
           />
+        </Link>
         </motion.div>
       </motion.div>
     </motion.div>

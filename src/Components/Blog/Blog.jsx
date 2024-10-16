@@ -1,8 +1,8 @@
 import React from 'react';
 import { Timeline } from "../ui/timeline";
-// import Navbar from '../precomponent/Navbar';
+import Navbar from '../precomponent/Navbar';
 import  Footer  from '../precomponent/Footer';
-import Navbar from '../header'
+// import Navbar from '../header'
 
 
 export function Blog() {
@@ -13,7 +13,7 @@ export function Blog() {
         <div>
           <p
             className="text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            Built and launched Aceternity UI and Aceternity UI Pro from scratch
+            Built and launched service Bricks and  ServiceQuery from scratch
           </p>
           <div className="grid grid-cols-2 gap-4">
             <img
@@ -93,16 +93,16 @@ export function Blog() {
         <div>
           <p
             className="text-neutral-800 text-neutral-200 text-xs md:text-sm font-normal mb-4">
-            Deployed 5 new components on Aceternity today
+            Deployed 5 new components on MicroServices today
           </p>
           <div className="mb-8">
             <div
               className="flex gap-2 items-center text-neutral-300 text-xs md:text-sm">
-              ✅ Card grid component
+              ✅ Login component
             </div>
             <div
               className="flex gap-2 items-center text-neutral-300 text-xs md:text-sm">
-              ✅ Startup template Aceternity
+              ✅ Startup Micro Service for Service with service Bricks
             </div>
             <div
               className="flex gap-2 items-center text-neutral-300 text-xs md:text-sm">
@@ -110,12 +110,9 @@ export function Blog() {
             </div>
             <div
               className="flex gap-2 items-center text-neutral-300 text-xs md:text-sm">
-              ✅ Himesh Reshammiya Music CD
+              ✅ Multiverse
             </div>
-            <div
-              className="flex gap-2 items-center text-neutral-300 text-xs md:text-sm">
-              ✅ Salman Bhai Fan Club registrations open
-            </div>
+           
           </div>
           <div className="grid grid-cols-2 gap-4">
             <img

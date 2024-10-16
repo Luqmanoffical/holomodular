@@ -1,9 +1,9 @@
 import React from "react";
 import "../Css/contact.css";
 import Accordion from "../Conditions/Accordian";
-// import Navbar from '../precomponent/Navbar';
+import Navbar from '../precomponent/Navbar';
 import  Footer  from '../precomponent/Footer';
-import Navbar from '../header'
+// import Navbar from '../header'
 import {Link} from "react-router-dom"
 function FAQs() {
   return (

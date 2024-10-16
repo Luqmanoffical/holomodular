@@ -1,12 +1,13 @@
 import React from 'react';
 import { FaEnvelope, FaLock } from 'react-icons/fa';
 import  Footer  from '../precomponent/Footer';
-import Navbar from '../header'
+// import Navbar from '../header'
 import {Link} from "react-router-dom"
 import { Player } from '@lottiefiles/react-lottie-player';
 import LoginAnimation from '../../assets/LoginAnimation.json'; // Assuming the correct path to the Lottie file
 import './Styles.css';
 import { useForm } from 'react-hook-form';
+import Navbar from '../precomponent/Navbar';
 
 const Signup = () => {
   const {
