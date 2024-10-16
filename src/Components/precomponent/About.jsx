@@ -99,7 +99,7 @@ Impressum
           variants={zoomIn(0.4, 1)}
           className="lg:block hidden absolute -left-[10%] top-[18%]"
         >
-     <Link to="/Registered">     <img
+     <Link to="/signin">     <img
             src={stamp}
             alt="stamp"
             className="w-[155px] h-[155px] object-contain"
