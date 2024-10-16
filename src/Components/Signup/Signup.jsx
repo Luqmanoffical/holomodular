@@ -23,7 +23,7 @@ const Signup = () => {
   };
 
   return (
-    <div className="w-[100vw]">
+    <div className="overflow-hidden">
       <Navbar /> 
       <div className="mt-16 min-h-screen bg-transparent flex items-center justify-center py-10">
         <div className="flex flex-col md:flex-row w-full max-w-7xl bg-transparent rounded-3xl shadow-[10px] overflow-hidden neon-border-purple"> 

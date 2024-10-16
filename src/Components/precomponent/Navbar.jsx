@@ -333,7 +333,7 @@ const Navbar = () => {
       <div className="w-[50%] inset-0 gradient-01" />
       <div className={`${styles.innerWidth} mx-auto flex justify-between items-center`}>
         
-        <NavLink to="/"><img src={logo} alt="logo" className='h-16 lg:h-24 -ml-8  object-contain' />
+        <NavLink to="/"><img src={logo} alt="logo" className='h-16 lg:h-24  -ml-0 md:-ml-8  object-contain' />
         </NavLink> 
 
         <button onClick={toggleMenu} className="block md:hidden text-white">
