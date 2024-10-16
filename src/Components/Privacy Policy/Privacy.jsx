@@ -62,13 +62,13 @@ function Privacy() {
             protecting your personal information and your right to privacy. If
             you have any questions or concerns about this privacy policy or our
             practices regarding your personal information, please contact us at{" "}
-            <Link
+            <a
               href="mailto:Support@HoloModular.com"
               className="text-purple-600"
             >
               Support@HoloModular.com{" "}
         
-            </Link>{" "}
+            </a>{" "}
             .
           </p>
 
@@ -361,8 +361,13 @@ function Privacy() {
                   In addition, you can request a copy of your personal
                   information, your product registration history, and your
                   interactions with our sales and support agents by contacting
-                  us at Support@HoloModular.com.{" "}
-                </p>
+                  us at 
+                  <a
+              href="mailto:Support@HoloModular.com"
+              className="text-purple-600"
+            >
+                   Support@HoloModular.com.{" "}
+                   </a>   </p>
               </>
             }
           />
@@ -478,7 +483,11 @@ technologies to help us understand which parts of our web sites are the most pop
               <>
                 <p className="my-2  
                  sm:my-3 md:my-4 lg:my-5 xl:my-6 text-sm sm:text-base md:text-lg lg:text-xl xl:text-xl">
-               If you have question or concerns about the Company’s Customer Privacy Policy or data processing, please contact us at Support@HoloModular.com. The Company’s Data Controller will respond to your inquiry within 30 days.
+               If you have question or concerns about the Company’s Customer Privacy Policy or data processing, please contact us at 
+               <a
+              href="mailto:Support@HoloModular.com"
+              className="text-purple-600"
+            >Support@HoloModular.com </a>. The Company’s Data Controller will respond to your inquiry within 30 days.
 	
                </p>
                <p className="my-2  
@@ -565,12 +574,12 @@ See Section 15 above entitled “Effective Date; Updates to Privacy Policy” fo
               <>
                 <p className="my-2  
                  sm:my-3 md:my-4 lg:my-5 xl:my-6 text-sm sm:text-base md:text-lg lg:text-xl xl:text-xl">If you have questions or comments about this notice, you may contact our Data Protection Officer (DP), Danny Logsdon, by email at 
-                   <Link
+                   <a
                  href="mailto:Support@HoloModular.com"
                  className="text-purple-600"
                >
                   Support@HoloModular.com
-                  </Link>  , by phone at 410-493-1879 or by US Mail to:
+                  </a>  , by phone at 410-493-1879 or by US Mail to:
               </p>
              <div className=" font-bold">
               <p>

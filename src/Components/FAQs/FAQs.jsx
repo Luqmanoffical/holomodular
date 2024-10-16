@@ -98,10 +98,12 @@ function FAQs() {
             <Accordion title="What if I have other questions?">
               <div>
                 <p className="my-3 pt-5 text-gray-300 ">
-                  Just send us an email at <Link
+                  Just send us an email at 
+                  <a
               href="mailto:Support@HoloModular.com"
               className="text-purple-600"
-            > Support@HoloModular.com </Link>  and we will
+            > Support@HoloModular.com </a>
+              and we will
                   be happy to help!
                 </p>
               </div>

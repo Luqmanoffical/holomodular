@@ -14,12 +14,12 @@ import Free from "../precomponent/Free"
 function Home() {
   return (
     <div className="overflow-hidden" >
+ <div   id="homes">
  
   <Navbar />
- <div  id="hero">
-  <Hero /></div>
+  <Hero />
   <div className="relative">
-      <About />
+  <Feedback />
       <div className="gradient-03 z-0" />
       <Explore />
     </div>
@@ -27,15 +27,18 @@ function Home() {
       <GetStarted />
       <div className="gradient-04 z-0" />
       <WhatsNew />
-    </div>
+    </div></div>
     <World />
     <div className="relative"  id="products">
-      <Insights />  
+      <div >
+      <Insights /></div>  
       <div className="gradient-04 z-0" />
       <Free/>
+      </div>
       <div  id="about">
-      <Feedback />
-    </div></div>
+      <About />
+      
+    </div>
     <Footer />
  
     

@@ -291,7 +291,7 @@ The Site may contain (or you may be sent via the Site) links to other websites (
                 <p className="font-bold "> 5620 Crest Creek Drive</p>
                 <p className="font-bold ">Jacksonville, FL 32258</p>
                 <p className="font-bold ">United States</p>
-                <p className="text-purple-600 hover:underline "  ><Link href="mailto:support@holomodular.com" > support@holomodular.com </Link> </p>
+                <p className="text-purple-600 hover:underline "  ><a href="mailto:support@holomodular.com" > support@holomodular.com </a> </p>
 
               </div>
             </div>
@@ -413,7 +413,7 @@ Company cannot guarantee the Site will always be available. Company may experien
                 <p className="font-bold ">Jacksonville, FL 32258</p>
                 <p className="font-bold "> United States</p>
                 <p className="font-bold ">410-493-1879</p>
-                <p className="text-purple-600 hover:underline "  ><Link href="mailto:support@holomodular.com" > support@holomodular.com </Link> </p>
+                <p className="text-purple-600 hover:underline "  ><a href="mailto:support@holomodular.com" > support@holomodular.com </a> </p>
 
               </div>
             </div>
