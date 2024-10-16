@@ -23,7 +23,7 @@ const ScrollToTop = ({ behavior = 'auto', top = 0 }) => {
   useEffect(() => {
     const handleResize = () => {
       // Optional: Calculate a different top based on window size if needed
-      const adjustedTop = window.innerWidth < 768 ? 0 : top; // Example breakpoint
+      // const adjustedTop = window.innerWidth < 768 ? 0 : top; // Example breakpoint
       window.scrollTo({
         top: adjustedTop,
         behavior: behavior,
