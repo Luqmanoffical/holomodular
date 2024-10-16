@@ -331,7 +331,7 @@ const Navbar = () => {
   return (
     <nav className={`${styles.xPaddings} p-3 bg-n-8 w-[100vw] fixed top-0 left-0 z-50`}>
       <div className="w-[50%] inset-0 gradient-01" />
-      <div className={`${styles.innerWidth}  flex justify-between items-center`}>
+      <div className={`${styles.innerWidth} mx-auto flex justify-between items-center`}>
         
         <NavLink to="/"><img src={logo} alt="logo" className='h-16 lg:h-24 -ml-8  object-contain' />
         </NavLink> 
