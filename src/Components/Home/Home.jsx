@@ -36,9 +36,10 @@ function Home() {
       <div className="gradient-04 z-0" />
       
       </div>
-      <div  id="about">
       
       <Free/>
+      <div  id="about">
+      
       <About />
       
     </div>
