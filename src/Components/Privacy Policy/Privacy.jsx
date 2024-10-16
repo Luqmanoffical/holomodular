@@ -30,7 +30,7 @@ function Privacy() {
   };
 
   return (
-    <div className=" text-white">
+    <div className="overflow-hidden text-white">
       <Navbar/>
       <div className="mt-28 text-white p-4 sm:p-6 md:p-8 lg:p-6 xl:p-6">
         <div className="text-center">

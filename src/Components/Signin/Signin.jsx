@@ -17,7 +17,8 @@ const Register = () => {
  
 
   return (
-    <>
+    <div className="overflow-hidden">
+
       <Navbar />
       <div className="min-h-screen font-poppins flex flex-col lg:flex-row bg-[#0000003a]">
         {/* Left Section - Graphic and Welcome Text */}
@@ -134,7 +135,7 @@ const Register = () => {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 

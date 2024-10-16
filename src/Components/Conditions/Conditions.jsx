@@ -7,7 +7,7 @@ import  Footer  from '../precomponent/Footer';
 
 function Conditions() {
   return (
-    <>
+    <div className="overflow-hidden">
     <Navbar/>
       <div className="py-8 px-4 sm:px-6 md:px-8 lg:px-16 xl:px-28 mt-20  text-white">
         <div>
@@ -421,7 +421,7 @@ Company cannot guarantee the Site will always be available. Company may experien
         </div>
       </div>
 <Footer/>
-    </>
+    </div>
   );
 }
 

@@ -21,7 +21,7 @@ function News() {
   }, [typingComplete]);
 
   return (
-    <div className=" text-white">
+    <div className=" overflow-hidden text-white">
  
 <Navbar/>  
 <div className="absolute top-0  w-full aspect-square bg-radial-gradient from-[#341947] to-[#28206C]/0 to-70% pointer-events-none" />

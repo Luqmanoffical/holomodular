@@ -7,9 +7,9 @@ import  Footer  from '../precomponent/Footer';
 import {Link} from "react-router-dom"
 function FAQs() {
   return (
-    <>
+    <div className="overflow-hidden">
       <Navbar />
-      <div className=" text-white mt-28">
+      <div className=" text-white  mt-28">
         <div className="text-center py-6">
           <h1 className="text-purple-600 text-xl animated-text">FAQ's</h1>
           <h1 className="text-6xl  font-bold animated-heading">
@@ -113,7 +113,7 @@ function FAQs() {
       </div>
      
 <Footer/>
-    </>
+    </div>
   );
 }
 

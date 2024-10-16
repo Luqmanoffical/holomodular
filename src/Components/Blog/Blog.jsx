@@ -49,7 +49,7 @@ export function Blog() {
       content: (
         <div>
           <p
-            className="text-neutral-200 text-xs md:text-sm font-normal mb-8">
+a            className="text-neutral-200 text-xs md:text-sm font-normal mb-8">
             I usually run out of copy, but when I see content this big, I try to
             integrate lorem ipsum.
           </p>
@@ -145,7 +145,7 @@ export function Blog() {
     },
   ];
   return (
-    (<div className="w-full">
+    (<div className="w-[100vw] overflow-hidden">
 <Navbar/>
 <div  className="mt-16">
 
