@@ -369,25 +369,25 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex md:flex-row md:justify-center md:items-center">
-          <NavLink to="/" exact onClick={() => setActiveLink('/')} className={`mx-4 hover:text-purple-400 font-code text-lg border-b border-transparent hover:border-purple-900 ${activeLink === '/' ? 'text-purple-400 border-b border-purple-700' : ''}`}>
+          <NavLink to="/" exact onClick={() => setActiveLink('/')} className={` mx-2 lg:mx-4 hover:text-purple-400 font-code text-base lg:text-lg border-b border-transparent hover:border-purple-900 ${activeLink === '/' ? 'text-purple-400 border-b border-purple-700' : ''}`}>
             Home
           </NavLink>
-          <button onClick={() => handleLinkClick('products', '/products')} className={`mx-4 hover:text-purple-400 font-code text-lg border-b border-transparent hover:border-purple-900 ${activeLink === '/products' ? 'text-purple-400 border-b border-purple-700' : ''}`}>
+          <button onClick={() => handleLinkClick('products', '/products')} className={`mx-2 lg:mx-4 hover:text-purple-400 font-code text-base lg:text-lg border-b border-transparent hover:border-purple-900 ${activeLink === '/products' ? 'text-purple-400 border-b border-purple-700' : ''}`}>
             Products
           </button>
-          <button onClick={() => handleLinkClick('about', '/about')} className={`mx-4 hover:text-purple-400 font-code text-lg border-b border-transparent hover:border-purple-900 ${activeLink === '/about' ? 'text-purple-400 border-b border-purple-700' : ''}`}>
+          <button onClick={() => handleLinkClick('about', '/about')} className={`mx-2 lg:mx-4 hover:text-purple-400 font-code text-base lg:text-lg border-b border-transparent hover:border-purple-900 ${activeLink === '/about' ? 'text-purple-400 border-b border-purple-700' : ''}`}>
             About
           </button>
-          <NavLink to="/blog" onClick={() => setActiveLink('/blog')} className={`mx-4 hover:text-purple-400 font-code text-lg border-b border-transparent hover:border-purple-900 ${activeLink === '/blog' ? 'text-purple-400 border-b border-purple-700' : ''}`}>
+          <NavLink to="/blog" onClick={() => setActiveLink('/blog')} className={`mx-2 lg:mx-4 hover:text-purple-400 font-code text-base lg:text-lg border-b border-transparent hover:border-purple-900 ${activeLink === '/blog' ? 'text-purple-400 border-b border-purple-700' : ''}`}>
             Blogs
           </NavLink>
-          <NavLink to="/news" onClick={() => setActiveLink('/news')} className={`mx-4 hover:text-purple-400 font-code text-lg border-b border-transparent hover:border-purple-900 ${activeLink === '/news' ? 'text-purple-400 border-b border-purple-700' : ''}`}>
+          <NavLink to="/news" onClick={() => setActiveLink('/news')} className={`mx-2 lg:mx-4 hover:text-purple-400 font-code text-base lg:text-lg border-b border-transparent hover:border-purple-900 ${activeLink === '/news' ? 'text-purple-400 border-b border-purple-700' : ''}`}>
             News
           </NavLink>
-          <NavLink to="/Registered" onClick={() => setActiveLink('/Registered')} className={`mx-4 hover:text-purple-400 font-code text-lg border-b border-transparent hover:border-purple-900 ${activeLink === '/Registered' ? 'text-purple-400 border-b border-purple-700' : ''}`}>
+          <NavLink to="/Registered" onClick={() => setActiveLink('/Registered')} className={`mx-2 lg:mx-4 hover:text-purple-400 font-code text-base lg:text-lg border-b border-transparent hover:border-purple-900 ${activeLink === '/Registered' ? 'text-purple-400 border-b border-purple-700' : ''}`}>
             Sign Up
           </NavLink>
-          <NavLink to="/signin" onClick={() => setActiveLink('/signin')} className={`relative inline-block font-code text-lg border-b-4 border-transparent px-3 py-2 rounded transition duration-300 ease-in-out transform hover:scale-105 ${activeLink === '/signin' ? 'text-purple-400 border-b border-purple-700' : ''}`}>
+          <NavLink to="/signin" onClick={() => setActiveLink('/signin')} className={`relative inline-block font-code text-sm lg:text-lg border-b-4 border-transparent px-3 py-2 rounded transition duration-300 ease-in-out transform hover:scale-105 ${activeLink === '/signin' ? 'text-purple-400 border-b border-purple-700' : ''}`}>
             <span className="absolute inset-0 bg-gradient-to-r from-purple-900 border border-gray-100 to-purple-500 rounded"></span>
             <span className="relative z-10 text-white">Sign In</span>
             

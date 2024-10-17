@@ -19,21 +19,21 @@ const Footer = () => (
       <div className="flex flex-col">
         <div className="mb-[50px] h-[2px] bg-white opacity-10" />
 
-        <div className="flex flex-col md:flex-row items-center justify-between flex-wrap gap-4 -mt-10">
+        <div className="flex flex-col lg:flex-row items-center justify-between flex-wrap gap-4 -mt-10">
           <div className="flex justify-center mb-4 md:mb-0">
             <NavLink to="/">
               <img src={logo} alt="logo" className="h-20" />
             </NavLink>
           </div>
 
-          <div className="flex flex-col md:flex-row items-center space-x-0 md:space-x-10 mb-4 md:mb-0">
+          <div className="flex flex-col md:flex-row items-center space-x-0 md:space-x-6 lg:space-x-10 mb-4 md:mb-0">
             {['/news', '/faqs', '/policy', '/conditions', '/blog'].map((path, index) => {
               const titles = ['Latest News', 'FAQs', 'Privacy Policy', 'Terms & Conditions', 'Blog'];
               return (
                 <NavLink 
                   key={index} 
                   to={path} 
-                  className={({ isActive }) => `text-lg font-semibold ${isActive ? 'text-purple-600' : 'text-white'} hover:text-purple-600 cursor-pointer mb-2 md:mb-0`}
+                  className={({ isActive }) => `text-base lg:text-lg font-semibold ${isActive ? 'text-purple-600' : 'text-white'} hover:text-purple-600 cursor-pointer mb-2 md:mb-0`}
                 >
                   {titles[index]}
                 </NavLink>
