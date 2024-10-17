@@ -45,7 +45,7 @@ const Hero = () => (
       >
     {/* <div className='w-full  flex flex-col ml-20 -mt-14 justify-center items-center text-center md:text-left'> */}
     <h1
-  className="text-xl md:text-2xl  lg:text-4xl font-bold mb-4 font-serif "
+  className="text-xl md:text-2xl pr-2  lg:text-4xl font-bold mb-4 font-serif "
   style={{
     background: "linear-gradient(to right, #EDC967, #D2AC47, #F7EF8A)",
     WebkitBackgroundClip: "text",
